@@ -10,7 +10,9 @@ class Shots extends Component {
       <section>
         <div className='container'>
           <div className='shots'>
-            <Shot />
+            {data.map(function(shot) {
+              return <Shot />
+            })}
           </div>
         </div>
       </section>
