@@ -8,7 +8,7 @@ class Shots extends Component {
       <section>
         <div className='container'>
           <div className='shots'>
-            {data.map(function(shot) {
+            {this.props.data.map(function(shot) {
               return <Shot
                         key={shot.key}
                         info={shot} />
