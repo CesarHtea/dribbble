@@ -3,12 +3,6 @@ import React, { Component } from 'react';
 import Shots from './Shots';
 
 class Container extends Component {
-  constructor() {
-    super();
-
-    this.state = {};
-  }
-
   render() {
     return (
       <header>
@@ -28,7 +22,7 @@ class Container extends Component {
             </li>
           </ul>
         </nav>
-        <Shots />
+        <Shots data={this.state.data}/>
       </header>
     );
   }
