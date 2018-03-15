@@ -38,7 +38,7 @@ class Container extends Component {
             </li>
           </ul>
         </nav>
-        <Shots data={this.state.data}/>
+        <Shots data={this.state.data} filter={this.state.filter} />
       </header>
     );
   }
