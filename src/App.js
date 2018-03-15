@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Container from './components/Container';
 
 import logo from './logo.svg';
-import './App.css';
+import './styles/Dribbble.css';
 
 class App extends Component {
   render() {
