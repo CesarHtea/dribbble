@@ -14,7 +14,9 @@ class Container extends Component {
   }
 
   filterShots = (filter) => {
-    console.log(filter)
+    this.setState({
+      filter
+    });
   }
 
   render() {
