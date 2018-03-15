@@ -4,6 +4,8 @@ import Shot from './Shot'
 
 class Shots extends Component {
   render() {
+    const { filter } = this.props;
+
     return (
       <section>
         <div className='container'>
