@@ -3,7 +3,11 @@ import React, { Component } from 'react';
 import Shots from './Shots';
 
 class Container extends Component {
-  constructor() {}
+  constructor() {
+    super();
+
+    this.state = {};
+  }
 
   render() {
     return (
