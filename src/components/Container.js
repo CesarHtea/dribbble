@@ -13,6 +13,8 @@ class Container extends Component {
     };
   }
 
+  filterShots = () => {}
+
   render() {
     return (
       <header>
