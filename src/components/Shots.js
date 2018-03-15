@@ -18,7 +18,7 @@ class Shots extends Component {
       <section>
         <div className='container'>
           <div className='shots'>
-            {this.props.data.map(function(shot) {
+            {newList.map(function(shot) {
               return <Shot
                         key={shot.key}
                         info={shot} />
