@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import Shot from './Shot'
 
 class Shots extends Component {
+  createList = (filter) => {}
+
   render() {
     const { filter } = this.props;
 
