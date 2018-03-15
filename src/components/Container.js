@@ -2,11 +2,15 @@ import React, { Component } from 'react';
 
 import Shots from './Shots';
 
+import data from '../data/datasource';
+
 class Container extends Component {
   constructor() {
     super();
 
-    this.state = {};
+    this.state = {
+      data: data
+    };
   }
 
   render() {
