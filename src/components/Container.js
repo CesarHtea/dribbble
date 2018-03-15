@@ -26,13 +26,13 @@ class Container extends Component {
               <a href='#' onClick={ () => { this.filterShots('all') } }>All</a>
             </li>
             <li>
-              <a href='#'>Popular</a>
+              <a href='#' onClick={ () => { this.filterShots('popular') } }>Popular</a>
             </li>
             <li>
-              <a href='#'>Recent</a>
+              <a href='#' onClick={ () => { this.filterShots('recent') } }>Recent</a>
             </li>
             <li>
-              <a href='#'>Debuts</a>
+              <a href='#' onClick={ () => { this.filterShots('debut') } }>Debuts</a>
             </li>
           </ul>
         </nav>
