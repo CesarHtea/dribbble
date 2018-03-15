@@ -11,7 +11,9 @@ class Shots extends Component {
         <div className='container'>
           <div className='shots'>
             {data.map(function(shot) {
-              return <Shot info={shot} />
+              return <Shot
+                        key={shot.key}
+                        info={shot} />
             })}
           </div>
         </div>

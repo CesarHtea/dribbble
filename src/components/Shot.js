@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Shot extends Component {
   render() {
-    const { key, img, stats, author } = this.props.info;
+    const { img, stats, author } = this.props.info;
 
     return (
       <article>
