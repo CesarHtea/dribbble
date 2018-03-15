@@ -5,6 +5,7 @@ import Shot from './Shot'
 class Shots extends Component {
   createList = (filter) => {
     return this.props.data.filter(function(shot) {
+      if (filter === 'all') return true;
       return shot.section === filter;
     });
   }
