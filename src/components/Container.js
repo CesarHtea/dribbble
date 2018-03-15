@@ -13,7 +13,9 @@ class Container extends Component {
     };
   }
 
-  filterShots = () => {}
+  filterShots = (filter) => {
+    console.log(filter)
+  }
 
   render() {
     return (
@@ -21,7 +23,7 @@ class Container extends Component {
         <nav className='nav'>
           <ul className='nav__list'>
             <li>
-              <a href='#' onClick={ () => { this.filterShots() } }>All</a>
+              <a href='#' onClick={ () => { this.filterShots('all') } }>All</a>
             </li>
             <li>
               <a href='#'>Popular</a>
