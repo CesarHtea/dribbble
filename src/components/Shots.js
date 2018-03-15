@@ -6,6 +6,8 @@ class Shots extends Component {
   render() {
     const { filter } = this.props;
 
+    const newList = this.createList(filter);
+
     return (
       <section>
         <div className='container'>
