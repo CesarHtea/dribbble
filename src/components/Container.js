@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Shots from './Shots';
+
 class Container extends Component {
   render() {
     return (
