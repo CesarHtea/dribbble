@@ -3,7 +3,11 @@ import React, { Component } from 'react';
 import Shot from './Shot'
 
 class Shots extends Component {
-  createList = (filter) => {}
+  createList = (filter) => {
+    return this.props.data.filter(function(shot) {
+      return shot.section === filter;
+    });
+  }
 
   render() {
     const { filter } = this.props;
