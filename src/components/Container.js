@@ -9,7 +9,8 @@ class Container extends Component {
     super();
 
     this.state = {
-      data
+      data,
+      filter: 'all'
     };
   }
 
