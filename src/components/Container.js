@@ -19,7 +19,7 @@ class Container extends Component {
         <nav className='nav'>
           <ul className='nav__list'>
             <li>
-              <a href='#'>All</a>
+              <a href='#' onClick={ () => {} }>All</a>
             </li>
             <li>
               <a href='#'>Popular</a>
