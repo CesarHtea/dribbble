@@ -25,16 +25,16 @@ class Container extends Component {
         <nav className='nav'>
           <ul className='nav__list'>
             <li>
-              <a href='#' onClick={ () => { this.filterShots('all') } }>All</a>
+              <a href='#' className={this.state.filter === 'all' ? 'selected' : '' } onClick={ () => { this.filterShots('all') } }>All</a>
             </li>
             <li>
-              <a href='#' onClick={ () => { this.filterShots('popular') } }>Popular</a>
+              <a href='#' className={this.state.filter === 'popular' ? 'selected' : '' } onClick={ () => { this.filterShots('popular') } }>Popular</a>
             </li>
             <li>
-              <a href='#' onClick={ () => { this.filterShots('recent') } }>Recent</a>
+              <a href='#' className={this.state.filter === 'recent' ? 'selected' : '' } onClick={ () => { this.filterShots('recent') } }>Recent</a>
             </li>
             <li>
-              <a href='#' onClick={ () => { this.filterShots('debut') } }>Debuts</a>
+              <a href='#' className={this.state.filter === 'debut' ? 'selected' : '' } onClick={ () => { this.filterShots('debut') } }>Debuts</a>
             </li>
           </ul>
         </nav>
